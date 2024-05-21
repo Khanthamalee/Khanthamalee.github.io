@@ -38,7 +38,7 @@ router.use((_, res) => {
 
 // Start that server
 const httpServer = http.createServer(router);
-const PORT: string | number = process.env.PORT ?? 3000;
+const PORT: string | number = process.env.PORT ?? 8080;
 httpServer.listen(PORT, () =>
   console.log(`API server alive and kicking on port ${PORT}`)
 );
