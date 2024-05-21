@@ -2,7 +2,7 @@
     "conpilerOptions":{
         "forceConsistentCasingInFileNames": true,
         "esModuleInterop":true,
-        "outDir":"dist",
+        "outDir":"./dist",
         "rootDir":"./",
         "target":"ESNext",
         "skipLipCheck":true,
